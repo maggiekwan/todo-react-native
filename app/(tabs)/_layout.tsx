@@ -26,7 +26,7 @@ export default function TabLayout() {
       />
 
       <Tabs.Screen
-        name="add"
+        name="add-task"
         options={{
           title: 'Add Task',
           tabBarIcon: ({ color }) => <SmilePlus size={28} color={color} />,

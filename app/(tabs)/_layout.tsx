@@ -23,14 +23,6 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <ScrollText size={28} color={color} />,
         }}
       />
-
-      <Tabs.Screen
-        name="add-task"
-        options={{
-          title: 'Add Task',
-          tabBarIcon: ({ color }) => <SmilePlus size={28} color={color} />,
-        }}
-      />
     </Tabs>
   );
 }

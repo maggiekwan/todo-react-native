@@ -38,3 +38,7 @@ npx expo start
 ```
 
 Scan the QR code with the Expo Go app on your device or run in an emulator
+
+## Third Party Libraries
+
+lucide-react provides vector icons used in the tab bar (ScrollText)

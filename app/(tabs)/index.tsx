@@ -42,6 +42,7 @@ export default function TodoApp() {
   const [input, setInput] = useState("");
 
   const addTodo = () => {
+    if (!input.trim()) return; // prevent empty input
     const newTodo: Todo = {
       id: Date.now().toString(),
       input: input,
